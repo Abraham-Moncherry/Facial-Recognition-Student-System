@@ -53,4 +53,14 @@ def encode_face(image_path, student_id, name, DOB, major):
         conn.close()
 
 # Add a student
-encode_face("images/S12340.jpg", "S12340", "Abraham Moncherry", "1998-05-12", "Computer Science")
+encode_face("images/S12340.jpg", "S12340", "Abraham Moncherry", "1999-01-01", "Computer Science")
+encode_face("images/S12341.jpg", "S12341", "Mohamad Yousouf", "1990-03-2", "Chemical Engineering")
+encode_face("images/S12342.jpg", "S12342", "Shahmeen Ganesh", "2000-12-15", "Civil Engineering")
+encode_face("images/S12343.jpg", "S12343", "Puhui Lam", "2001-01-5", "Computer Science")
+encode_face("images/S12344.jpg", "S12344", "Elsie Ok", "1999-09-1", "Computer Science")
+encode_face("images/S12345.jpg", "S12345", "Jake Gyllenhaal", "1980-12-19", "Pyschology")
+encode_face("images/S12346.jpg", "S12346", "Daniel Day-Lewis", "1957-04-29", "Drama")
+encode_face("images/S12347.jpg", "S12347", "Aubrey Drake Graham", "1986-10-24", "Music Production")
+encode_face("images/S12348.jpg", "S12348", "Beyoncé", "1981-09-4", "Economics")
+encode_face("images/S12349.jpg", "S12349", "Amy Adams", "1974-08-20", "Polical Science")
+
