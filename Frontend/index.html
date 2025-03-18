@@ -9,9 +9,11 @@
     <title>Facial Recognition System</title>
     <style>
         body {
+            background: url("/static/images/matrix_cover1.jpg");  /* Image as background */
+            background-size: 150% 70%;
+            animation: scrollBackground 20s linear infinite;
             font-family: Roboto, sans-serif;
             text-align: center;
-            background-color: #f5f5f7;
             font-size: 20px;
         }
         .container {
@@ -20,6 +22,7 @@
             margin: auto;
             height: 80vh;
             background: white;
+            border: 2px solid #3286db; /* Optional border */
             box-shadow: 0px 0px 10px 0px gray;
             border-radius: 10px;
             overflow: hidden;
@@ -68,11 +71,29 @@
         font-weight: 500 !important;
         color: rgb(94, 94, 94) !important;
         }
+
+        h2 {
+            padding: 10px 20px;
+            font-size: 30px;
+            color: #000000;
+            display: inline-block;  
+            background: #ffffff;
+            margin-top: 20px;
+            border-radius: 8px;  
+            border: 2px solid #3286db; 
+            box-shadow: 0px 0px 10px 0px gray;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        @keyframes scrollBackground {
+            from { background-position: 0 0; }
+            to { background-position: 0 100%; }
+        }
     </style>
 </head>
 <body>
 
-    <h2>Student Facial Recognition</h2>
+    <h2>Student Facial Recognition 👤</h2>
 
     <div class="container">
         <div class="left">
