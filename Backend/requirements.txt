@@ -12,7 +12,6 @@ MarkupSafe==3.0.2
 numpy==2.0.2
 opencv-python==4.11.0.86
 pillow==11.1.0
-psycopg==3.2.6
 psycopg2-binary==2.9.10
 python-dotenv==1.0.1
 typing_extensions==4.12.2
